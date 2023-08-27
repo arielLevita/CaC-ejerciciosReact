@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(35, 39, 47);
+    color: rgb(235, 236, 240);
+}
+
+small {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h1 {
+    width: 100%;
+    font-size: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+svg {
+    color: rgb(20, 158, 202);
+    margin-left: 1rem;
+}
+
+.links {
+    text-align: center;
+    padding: 1rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(235, 236, 240);
+}
