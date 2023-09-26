@@ -81,8 +81,10 @@ nav img {
     box-shadow: none;
 }
 
-.single-recipe {
-    max-width: 375px;
+.card {
+    background-color: transparent;
+    padding: 0;
+    height: 35rem;
 }
 
 footer svg {

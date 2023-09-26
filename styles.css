@@ -33,6 +33,7 @@ svg {
 .links {
     text-align: center;
     padding: 1rem;
+    list-style: none;
 }
 
 li {
