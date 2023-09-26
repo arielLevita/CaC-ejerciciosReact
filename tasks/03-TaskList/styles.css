@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    background: linear-gradient(lightblue, blue);
+}
+
+.btn-add {
+    background-color: rgb(104, 194, 104);
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn-done:hover {
+    background-color: rgb(223, 223, 223);
+}
+
+.list-main {
+    background-color: rgb(238, 231, 218)
+}
