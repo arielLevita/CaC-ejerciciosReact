@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container" id="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <input type="button" value="1" class="num num1" onclick="addToDisplay('1')">
+        <input type="button" value="2" class="num num2" onclick="addToDisplay('2')">
+        <input type="button" value="3" class="num num3" onclick="addToDisplay('3')">
+        <input type="button" value="+" class="op sum" onclick="addToDisplay('+')">
+        <input type="button" value="4" class="num num4" onclick="addToDisplay('4')">
+        <input type="button" value="5" class="num num5" onclick="addToDisplay('5')">
+        <input type="button" value="6" class="num num6" onclick="addToDisplay('6')">
+        <input type="button" value="-" class="op res" onclick="addToDisplay('-')">
+        <input type="button" value="7" class="num num7" onclick="addToDisplay('7')">
+        <input type="button" value="8" class="num num8" onclick="addToDisplay('8')">
+        <input type="button" value="9" class="num num9" onclick="addToDisplay('9')">
+        <input type="button" value="*" class="op mult" onclick="addToDisplay('*')">
+        <input type="button" value="C" class="clear" onclick="clearDisplay()">
+        <input type="button" value="0" class="num num0" onclick="addToDisplay('0')">
+        <input type="button" value="=" class="total" onclick="calculate()">
+        <input type="button" value="/" class="op div" onclick="addToDisplay('/')">
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

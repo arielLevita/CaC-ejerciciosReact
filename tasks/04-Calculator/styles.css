@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(100, 50, 100);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 1px solid gray;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 175);
+}
+
+input {
+    font-weight: 600;
+    font-size: larger;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.display {
+    grid-area: 1 / 1 / 2 / 5;
+    font-weight: 600;
+    font-size: larger;
+    text-align: end;
+    padding: 0 10px;
+    margin-bottom: 1rem;
+    border: 1px solid gray;
+    background-color: aliceblue;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.num1 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.num2 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.num3 {
+    grid-area: 2 / 3 / 3 / 4;
+}
+
+.num4 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.num5 {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.num6 {
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.num7 {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+.num8 {
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.num9 {
+    grid-area: 4 / 3 / 5 / 4;
+}
+
+.sum {
+    grid-area: 2 / 4 / 3 / 5;
+}
+
+.res {
+    grid-area: 3 / 4 / 4 / 5;
+}
+
+.mult {
+    grid-area: 4 / 4 / 5 / 5;
+}
+
+.div {
+    grid-area: 5 / 4 / 6 / 5;
+}
+
+.clear {
+    grid-area: 5 / 1 / 6 / 2;
+    background-color: rgb(211, 85, 85);
+}
+
+.clear:hover {
+    background-color: rgb(158, 43, 43);
+}
+
+.num0 {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.total {
+    grid-area: 5 / 3 / 6 / 4;
+    background-color: rgb(80, 165, 80);
+}
+
+.total:hover {
+    background-color: rgb(46, 170, 46);
+}
+
+.op {
+    background-color: rgb(89, 89, 187);
+}
+
+.op:hover {
+    background-color: rgb(51, 51, 175);
+}
+
+.num:hover {
+    background-color: #808080;
+}
+
+.num {
+    background-color: #acacac;
+}
